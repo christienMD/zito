@@ -1,8 +1,6 @@
 /* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap');
-
 body {
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 10px;
     line-height: 1.2;
     color: #000;
@@ -17,7 +15,6 @@ body {
     padding: 10mm;
     box-sizing: border-box;
     position: relative;
-    border: 1px solid #000; /* Add a border to the container */
 }
 
 /* Header Styles */
@@ -29,6 +26,7 @@ header {
 .company-info {
     font-size: 8px;
     line-height: 1.2;
+    
 }
 
 /* Main Content Styles */
@@ -57,9 +55,6 @@ h3 {
     font-size: 11px;
     margin-top: 10px;
     margin-bottom: 5px;
-    background-color: #f2f2f2;
-    padding: 3px;
-    border: 1px solid #000;
 }
 
 /* Contract Details Styles */
@@ -67,8 +62,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    border: 1px solid #000;
-    padding: 5px;
 }
 
 .dates, .numbers {
@@ -78,8 +71,6 @@ h3 {
 /* Address and Product Info Styles */
 .address-info, .product-info {
     margin-bottom: 10px;
-    border: 1px solid #000;
-    padding: 5px;
 }
 
 /* Grid Layout for Information Sections */
@@ -87,14 +78,10 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-    border: 1px solid #000;
-    padding: 5px;
 }
 
 .info-grid p {
     margin: 0;
-    border-bottom: 1px solid #ccc;
-    padding: 2px 0;
 }
 
 .info-grid span {
@@ -124,32 +111,24 @@ th {
 .usage {
     font-style: italic;
     margin-bottom: 5px;
-    border: 1px solid #000;
-    padding: 3px;
 }
 
 .total-premium {
     font-weight: bold;
     text-align: right;
     margin-top: 5px;
-    border-top: 1px solid #000;
-    padding-top: 3px;
 }
 
 .amount-in-words {
     font-style: italic;
     text-align: right;
     font-size: 9px;
-    border-top: 1px solid #000;
-    padding-top: 3px;
 }
 
 /* Footer Styles */
 .contract-footer {
     margin-top: 20px;
     font-size: 9px;
-    border-top: 1px solid #000;
-    padding-top: 10px;
 }
 
 .signatures {
@@ -161,8 +140,6 @@ th {
 .signature-box {
     width: 45%;
     text-align: center;
-    border: 1px solid #000;
-    padding: 5px;
 }
 
 .signature-box p {
@@ -175,8 +152,6 @@ th {
     margin-top: 15px;
     text-align: center;
     font-style: italic;
-    border-top: 1px solid #000;
-    padding-top: 5px;
 }
 
 /* Responsive Design */
@@ -199,10 +174,4 @@ th {
         height: auto;
         padding: 5mm;
     }
-}
-
-/* Additional style for the highlighted row in the premium table */
-.premium-section table tr:nth-child(2) {
-    background-color: #FFA500; /* Orange background */
-    font-weight: bold;
 }
